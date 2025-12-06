@@ -1,0 +1,87 @@
+雅安天气小程序自动化工具使用说明
+=================================
+
+一、工具组成
+-----------
+1. auto_update_weather.ps1 - 核心PowerShell脚本
+2. 自动更新天气数据.bat - 图形化操作界面
+3. setup_scheduled_task.bat - 创建Windows计划任务
+4. remove_scheduled_task.bat - 删除Windows计划任务
+
+二、使用方法
+-----------
+
+方法一：图形化操作（推荐新手）
+-----------------------------
+双击"自动更新天气数据.bat"文件，根据提示选择操作：
+1. 立即更新一次天气数据
+2. 每小时自动更新(循环模式)
+3. 每天自动更新(循环模式)
+4. 查看更新日志
+
+方法二：直接运行PowerShell脚本
+------------------------------
+1. 单次更新：
+   powershell -ExecutionPolicy Bypass -File "auto_update_weather.ps1"
+
+2. 循环更新（每60分钟）：
+   powershell -ExecutionPolicy Bypass -File "auto_update_weather.ps1" -LoopInterval 60
+
+3. 静默模式（不显示详细输出）：
+   powershell -ExecutionPolicy Bypass -File "auto_update_weather.ps1" -Silent
+
+方法三：Windows计划任务（全自动）
+--------------------------------
+1. 双击"setup_scheduled_task.bat"创建计划任务
+2. 默认每天上午9点自动更新天气数据
+3. 如需删除任务，可运行"remove_scheduled_task.bat"
+
+三、功能特点
+-----------
+
+1. 自动化流程：
+   - 自动运行爬虫脚本获取最新天气数据
+   - 自动生成可视化图表
+   - 自动将图表复制到Vue项目目录
+   - 记录详细操作日志
+
+2. 多种运行模式：
+   - 单次执行：执行一次更新后退出
+   - 循环执行：按设定间隔持续更新
+   - 计划任务：系统级定时自动更新
+
+3. 日志记录：
+   - 所有操作都会记录到 logs/weather_update.log
+   - 包含时间戳、操作状态、错误信息等
+
+四、注意事项
+-----------
+
+1. 确保Python环境正常安装并可执行
+2. 确保网络连接正常，以便爬虫获取天气数据
+3. 首次运行时可能会被Windows安全软件拦截，请允许执行
+4. 如需修改更新频率，可调整脚本参数或计划任务时间
+
+五、故障排除
+-----------
+
+1. 如果脚本无法运行：
+   - 检查PowerShell执行策略：Get-ExecutionPolicy
+   - 临时解除限制：Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+2. 如果爬虫执行失败：
+   - 检查网络连接
+   - 确认目标网站(tianqi.com)可访问
+   - 检查Python依赖库是否安装完整
+
+3. 如果文件复制失败：
+   - 检查目录权限
+   - 确认目标目录存在且可写
+
+六、自定义配置
+-------------
+
+如需修改默认配置，可编辑 auto_update_weather.ps1 文件：
+1. 修改爬虫执行路径
+2. 调整文件复制目标目录
+3. 更改日志记录格式

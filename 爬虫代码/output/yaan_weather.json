@@ -1,0 +1,74 @@
+[
+  {
+    "date": "12月05日",
+    "week": "星期五",
+    "weather": "晴",
+    "high_temp": "15℃",
+    "low_temp": "6℃",
+    "temperature": "6~15℃",
+    "wind": "晴",
+    "humidity": "65%",
+    "wind_direction": "东南风 1级",
+    "air_quality_index": "61",
+    "air_quality_level": "良",
+    "uv": "无",
+    "pm": "61",
+    "current_hour_weather": "晴",
+    "current_hour_temperature": "10℃",
+    "current_time": "2025-12-05 21:57:07"
+  },
+  {
+    "date": "12月06日",
+    "week": "星期六",
+    "weather": "阴转晴",
+    "high_temp": "11℃",
+    "low_temp": "7℃",
+    "temperature": "7~11℃",
+    "wind": "阴转晴"
+  },
+  {
+    "date": "12月07日",
+    "week": "星期日",
+    "weather": "晴转多云",
+    "high_temp": "16℃",
+    "low_temp": "7℃",
+    "temperature": "7~16℃",
+    "wind": "晴转多云"
+  },
+  {
+    "date": "12月08日",
+    "week": "星期一",
+    "weather": "多云转阴",
+    "high_temp": "13℃",
+    "low_temp": "9℃",
+    "temperature": "9~13℃",
+    "wind": "多云转阴"
+  },
+  {
+    "date": "12月09日",
+    "week": "星期二",
+    "weather": "阴转小雨",
+    "high_temp": "13℃",
+    "low_temp": "9℃",
+    "temperature": "9~13℃",
+    "wind": "阴转小雨"
+  },
+  {
+    "date": "12月10日",
+    "week": "星期三",
+    "weather": "小雨",
+    "high_temp": "15℃",
+    "low_temp": "8℃",
+    "temperature": "8~15℃",
+    "wind": "小雨"
+  },
+  {
+    "date": "12月11日",
+    "week": "星期四",
+    "weather": "阴",
+    "high_temp": "12℃",
+    "low_temp": "9℃",
+    "temperature": "9~12℃",
+    "wind": "阴"
+  }
+]

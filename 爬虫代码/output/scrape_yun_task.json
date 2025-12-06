@@ -1,0 +1,246 @@
+{
+    "daily": [
+        {
+            "date": "12\u670805\u65e5",
+            "week": "\u661f\u671f\u4e94",
+            "weather": "\u6674",
+            "high_temp": "15\u2103",
+            "low_temp": "6\u2103",
+            "temperature": "6~15\u2103",
+            "wind": "\u6674",
+            "humidity": "65%",
+            "wind_direction": "\u4e1c\u5357\u98ce 1\u7ea7",
+            "air_quality_index": "61",
+            "air_quality_level": "\u826f",
+            "uv": "\u65e0",
+            "pm": "61",
+            "current_hour_weather": "\u6674",
+            "current_hour_temperature": "10\u2103",
+            "current_time": "2025-12-05 21:57:07"
+        },
+        {
+            "date": "12\u670806\u65e5",
+            "week": "\u661f\u671f\u516d",
+            "weather": "\u9634\u8f6c\u6674",
+            "high_temp": "11\u2103",
+            "low_temp": "7\u2103",
+            "temperature": "7~11\u2103",
+            "wind": "\u9634\u8f6c\u6674"
+        },
+        {
+            "date": "12\u670807\u65e5",
+            "week": "\u661f\u671f\u65e5",
+            "weather": "\u6674\u8f6c\u591a\u4e91",
+            "high_temp": "16\u2103",
+            "low_temp": "7\u2103",
+            "temperature": "7~16\u2103",
+            "wind": "\u6674\u8f6c\u591a\u4e91"
+        },
+        {
+            "date": "12\u670808\u65e5",
+            "week": "\u661f\u671f\u4e00",
+            "weather": "\u591a\u4e91\u8f6c\u9634",
+            "high_temp": "13\u2103",
+            "low_temp": "9\u2103",
+            "temperature": "9~13\u2103",
+            "wind": "\u591a\u4e91\u8f6c\u9634"
+        },
+        {
+            "date": "12\u670809\u65e5",
+            "week": "\u661f\u671f\u4e8c",
+            "weather": "\u9634\u8f6c\u5c0f\u96e8",
+            "high_temp": "13\u2103",
+            "low_temp": "9\u2103",
+            "temperature": "9~13\u2103",
+            "wind": "\u9634\u8f6c\u5c0f\u96e8"
+        },
+        {
+            "date": "12\u670810\u65e5",
+            "week": "\u661f\u671f\u4e09",
+            "weather": "\u5c0f\u96e8",
+            "high_temp": "15\u2103",
+            "low_temp": "8\u2103",
+            "temperature": "8~15\u2103",
+            "wind": "\u5c0f\u96e8"
+        },
+        {
+            "date": "12\u670811\u65e5",
+            "week": "\u661f\u671f\u56db",
+            "weather": "\u9634",
+            "high_temp": "12\u2103",
+            "low_temp": "9\u2103",
+            "temperature": "9~12\u2103",
+            "wind": "\u9634"
+        }
+    ],
+    "hourly": [
+        {
+            "hour": "19\u65f6",
+            "weather": "\u6674",
+            "temperature": "11\u2103",
+            "wind_direction": "\u4e1c\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "20\u65f6",
+            "weather": "\u6674",
+            "temperature": "10\u2103",
+            "wind_direction": "\u4e1c\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "21\u65f6",
+            "weather": "\u6674",
+            "temperature": "10\u2103",
+            "wind_direction": "\u4e1c\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "22\u65f6",
+            "weather": "\u6674",
+            "temperature": "9\u2103",
+            "wind_direction": "\u4e1c\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "23\u65f6",
+            "weather": "\u6674",
+            "temperature": "9\u2103",
+            "wind_direction": "\u4e1c\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "00\u65f6",
+            "weather": "\u6674",
+            "temperature": "8\u2103",
+            "wind_direction": "\u4e1c\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "01\u65f6",
+            "weather": "\u6674",
+            "temperature": "8\u2103",
+            "wind_direction": "\u4e1c\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "02\u65f6",
+            "weather": "\u6674",
+            "temperature": "8\u2103",
+            "wind_direction": "\u4e1c\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "03\u65f6",
+            "weather": "\u591a\u4e91",
+            "temperature": "7\u2103",
+            "wind_direction": "\u4e1c\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "04\u65f6",
+            "weather": "\u591a\u4e91",
+            "temperature": "7\u2103",
+            "wind_direction": "\u897f\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "05\u65f6",
+            "weather": "\u591a\u4e91",
+            "temperature": "7\u2103",
+            "wind_direction": "\u897f\u5317\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "06\u65f6",
+            "weather": "\u9634",
+            "temperature": "7\u2103",
+            "wind_direction": "\u5317\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "07\u65f6",
+            "weather": "\u96fe",
+            "temperature": "7\u2103",
+            "wind_direction": "\u5317\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "08\u65f6",
+            "weather": "\u96fe",
+            "temperature": "7\u2103",
+            "wind_direction": "\u897f\u5317\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "09\u65f6",
+            "weather": "\u5c0f\u96e8",
+            "temperature": "8\u2103",
+            "wind_direction": "\u897f\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "10\u65f6",
+            "weather": "\u5c0f\u96e8",
+            "temperature": "9\u2103",
+            "wind_direction": "\u897f\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "11\u65f6",
+            "weather": "\u5c0f\u96e8",
+            "temperature": "10\u2103",
+            "wind_direction": "\u897f\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "12\u65f6",
+            "weather": "\u5c0f\u96e8",
+            "temperature": "10\u2103",
+            "wind_direction": "\u897f\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "13\u65f6",
+            "weather": "\u96fe",
+            "temperature": "11\u2103",
+            "wind_direction": "\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "14\u65f6",
+            "weather": "\u9634",
+            "temperature": "11\u2103",
+            "wind_direction": "\u4e1c\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "15\u65f6",
+            "weather": "\u591a\u4e91",
+            "temperature": "11\u2103",
+            "wind_direction": "\u4e1c\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "16\u65f6",
+            "weather": "\u591a\u4e91",
+            "temperature": "11\u2103",
+            "wind_direction": "\u4e1c\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "17\u65f6",
+            "weather": "\u591a\u4e91",
+            "temperature": "11\u2103",
+            "wind_direction": "\u4e1c\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        },
+        {
+            "hour": "18\u65f6",
+            "weather": "\u591a\u4e91",
+            "temperature": "10\u2103",
+            "wind_direction": "\u4e1c\u5357\u98ce",
+            "wind_level": "1\u7ea7"
+        }
+    ]
+}
